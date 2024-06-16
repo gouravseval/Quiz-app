@@ -24,6 +24,7 @@ function Score() {
         <div className='text-[20px] font-bold'>Wrong or Skip Questions = <span className='text-red-400'>{wrongSelector}</span></div>
         <div className='text-[20px] font-bold'>Total Attempt = {totalSelector}</div>
       </div>
+      <button onClick={()=>refreshNavigate('/category')} className='outline-none border-none bg-blue-400 w-48 h-10 rounded-lg text-white'>Play Another</button>
     </div>
   );
 }
